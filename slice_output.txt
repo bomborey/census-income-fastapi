@@ -1,0 +1,118 @@
+Overall test set | n: 6513 | Precision: 0.8009 | Recall: 0.5874 | F1: 0.6777
+
+===== Slice metrics for 'workclass' =====
+workclass = ? | n: 363 | Precision: 0.7500 | Recall: 0.5833 | F1: 0.6562
+workclass = Federal-gov | n: 195 | Precision: 0.6863 | Recall: 0.4605 | F1: 0.5512
+workclass = Local-gov | n: 389 | Precision: 0.7732 | Recall: 0.6250 | F1: 0.6912
+workclass = Never-worked | n: 1 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+workclass = Private | n: 4597 | Precision: 0.8192 | Recall: 0.5570 | F1: 0.6631
+workclass = Self-emp-inc | n: 222 | Precision: 0.7712 | Recall: 0.7712 | F1: 0.7712
+workclass = Self-emp-not-inc | n: 500 | Precision: 0.8396 | Recall: 0.6224 | F1: 0.7149
+workclass = State-gov | n: 245 | Precision: 0.7500 | Recall: 0.7273 | F1: 0.7385
+workclass = Without-pay | n: 1 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+===== Slice metrics for 'education' =====
+education = 10th | n: 204 | Precision: 1.0000 | Recall: 0.1333 | F1: 0.2353
+education = 11th | n: 244 | Precision: 1.0000 | Recall: 0.3636 | F1: 0.5333
+education = 12th | n: 79 | Precision: 1.0000 | Recall: 0.2500 | F1: 0.4000
+education = 1st-4th | n: 28 | Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+education = 5th-6th | n: 51 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education = 7th-8th | n: 120 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+education = 9th | n: 106 | Precision: 1.0000 | Recall: 0.1429 | F1: 0.2500
+education = Assoc-acdm | n: 191 | Precision: 1.0000 | Recall: 0.4000 | F1: 0.5714
+education = Assoc-voc | n: 274 | Precision: 0.8378 | Recall: 0.3647 | F1: 0.5082
+education = Bachelors | n: 1096 | Precision: 0.7470 | Recall: 0.8650 | F1: 0.8017
+education = Doctorate | n: 84 | Precision: 0.9032 | Recall: 0.8889 | F1: 0.8960
+education = HS-grad | n: 2120 | Precision: 0.9506 | Recall: 0.2271 | F1: 0.3667
+education = Masters | n: 318 | Precision: 0.8426 | Recall: 0.9121 | F1: 0.8760
+education = Preschool | n: 9 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education = Prof-school | n: 114 | Precision: 0.8061 | Recall: 0.9518 | F1: 0.8729
+education = Some-college | n: 1475 | Precision: 0.7464 | Recall: 0.3679 | F1: 0.4928
+
+===== Slice metrics for 'marital-status' =====
+marital-status = Divorced | n: 883 | Precision: 0.9118 | Recall: 0.3010 | F1: 0.4526
+marital-status = Married-AF-spouse | n: 5 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+marital-status = Married-civ-spouse | n: 2977 | Precision: 0.7907 | Recall: 0.6339 | F1: 0.7036
+marital-status = Married-spouse-absent | n: 86 | Precision: 1.0000 | Recall: 0.2000 | F1: 0.3333
+marital-status = Never-married | n: 2181 | Precision: 0.9667 | Recall: 0.3258 | F1: 0.4874
+marital-status = Separated | n: 199 | Precision: 1.0000 | Recall: 0.3750 | F1: 0.5455
+marital-status = Widowed | n: 182 | Precision: 1.0000 | Recall: 0.3636 | F1: 0.5333
+
+===== Slice metrics for 'occupation' =====
+occupation = ? | n: 364 | Precision: 0.7500 | Recall: 0.5833 | F1: 0.6562
+occupation = Adm-clerical | n: 819 | Precision: 0.7018 | Recall: 0.3252 | F1: 0.4444
+occupation = Armed-Forces | n: 3 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation = Craft-repair | n: 800 | Precision: 0.7500 | Recall: 0.3098 | F1: 0.4385
+occupation = Exec-managerial | n: 808 | Precision: 0.8287 | Recall: 0.7545 | F1: 0.7898
+occupation = Farming-fishing | n: 203 | Precision: 1.0000 | Recall: 0.3810 | F1: 0.5517
+occupation = Handlers-cleaners | n: 252 | Precision: 0.5714 | Recall: 0.3333 | F1: 0.4211
+occupation = Machine-op-inspct | n: 392 | Precision: 1.0000 | Recall: 0.2692 | F1: 0.4242
+occupation = Other-service | n: 684 | Precision: 1.0000 | Recall: 0.1667 | F1: 0.2857
+occupation = Priv-house-serv | n: 20 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+occupation = Prof-specialty | n: 818 | Precision: 0.8031 | Recall: 0.8500 | F1: 0.8259
+occupation = Protective-serv | n: 121 | Precision: 0.7619 | Recall: 0.3810 | F1: 0.5079
+occupation = Sales | n: 718 | Precision: 0.7945 | Recall: 0.5686 | F1: 0.6629
+occupation = Tech-support | n: 189 | Precision: 0.7714 | Recall: 0.4737 | F1: 0.5870
+occupation = Transport-moving | n: 322 | Precision: 0.7500 | Recall: 0.1967 | F1: 0.3117
+
+===== Slice metrics for 'relationship' =====
+relationship = Husband | n: 2607 | Precision: 0.7831 | Recall: 0.6386 | F1: 0.7035
+relationship = Not-in-family | n: 1636 | Precision: 0.9310 | Recall: 0.3273 | F1: 0.4843
+relationship = Other-relative | n: 190 | Precision: 0.7500 | Recall: 0.3333 | F1: 0.4615
+relationship = Own-child | n: 1032 | Precision: 0.6667 | Recall: 0.1333 | F1: 0.2222
+relationship = Unmarried | n: 712 | Precision: 1.0000 | Recall: 0.3023 | F1: 0.4643
+relationship = Wife | n: 336 | Precision: 0.8673 | Recall: 0.6125 | F1: 0.7179
+
+===== Slice metrics for 'race' =====
+race = Amer-Indian-Eskimo | n: 73 | Precision: 0.7500 | Recall: 0.3333 | F1: 0.4615
+race = Asian-Pac-Islander | n: 200 | Precision: 0.6667 | Recall: 0.6538 | F1: 0.6602
+race = Black | n: 662 | Precision: 0.8000 | Recall: 0.4731 | F1: 0.5946
+race = Other | n: 45 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+race = White | n: 5533 | Precision: 0.8069 | Recall: 0.5929 | F1: 0.6836
+
+===== Slice metrics for 'sex' =====
+sex = Female | n: 2158 | Precision: 0.8803 | Recall: 0.5102 | F1: 0.6460
+sex = Male | n: 4355 | Precision: 0.7897 | Recall: 0.6017 | F1: 0.6830
+
+===== Slice metrics for 'native-country' =====
+native-country = ? | n: 125 | Precision: 0.7222 | Recall: 0.8125 | F1: 0.7647
+native-country = Cambodia | n: 3 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Canada | n: 28 | Precision: 0.3333 | Recall: 0.2000 | F1: 0.2500
+native-country = China | n: 14 | Precision: 0.7500 | Recall: 0.7500 | F1: 0.7500
+native-country = Columbia | n: 11 | Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country = Cuba | n: 12 | Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+native-country = Dominican-Republic | n: 12 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Ecuador | n: 3 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country = El-Salvador | n: 21 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = England | n: 22 | Precision: 0.7500 | Recall: 0.4286 | F1: 0.5455
+native-country = France | n: 2 | Precision: 0.0000 | Recall: 1.0000 | F1: 0.0000
+native-country = Germany | n: 28 | Precision: 0.8000 | Recall: 0.5714 | F1: 0.6667
+native-country = Greece | n: 4 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Guatemala | n: 21 | Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+native-country = Haiti | n: 8 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Honduras | n: 3 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Hong | n: 3 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Hungary | n: 2 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country = India | n: 18 | Precision: 0.7000 | Recall: 1.0000 | F1: 0.8235
+native-country = Iran | n: 12 | Precision: 0.2500 | Recall: 0.3333 | F1: 0.2857
+native-country = Ireland | n: 2 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Italy | n: 13 | Precision: 1.0000 | Recall: 0.6250 | F1: 0.7692
+native-country = Jamaica | n: 21 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Japan | n: 16 | Precision: 0.8333 | Recall: 0.7143 | F1: 0.7692
+native-country = Laos | n: 2 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Mexico | n: 111 | Precision: 0.5000 | Recall: 0.3333 | F1: 0.4000
+native-country = Nicaragua | n: 11 | Precision: 0.0000 | Recall: 0.0000 | F1: 0.0000
+native-country = Outlying-US(Guam-USVI-etc) | n: 4 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Peru | n: 7 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Philippines | n: 41 | Precision: 0.6923 | Recall: 0.7500 | F1: 0.7200
+native-country = Poland | n: 12 | Precision: 0.5000 | Recall: 1.0000 | F1: 0.6667
+native-country = Portugal | n: 7 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country = Puerto-Rico | n: 22 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Scotland | n: 4 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = South | n: 12 | Precision: 1.0000 | Recall: 0.1667 | F1: 0.2857
+native-country = Taiwan | n: 7 | Precision: 0.7500 | Recall: 1.0000 | F1: 0.8571
+native-country = Thailand | n: 7 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = Trinadad&Tobago | n: 4 | Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+native-country = United-States | n: 5835 | Precision: 0.8098 | Recall: 0.5818 | F1: 0.6772
+native-country = Vietnam | n: 15 | Precision: 1.0000 | Recall: 0.0000 | F1: 0.0000
+native-country = Yugoslavia | n: 8 | Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667

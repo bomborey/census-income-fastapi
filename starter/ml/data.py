@@ -62,11 +62,9 @@ def process_data(
         y = lb.fit_transform(y.values).ravel()
     else:
         X_categorical = encoder.transform(X_categorical)
-        try:
+        # During inference there is no label column, so y stays empty.
+        if label is not None:
             y = lb.transform(y.values).ravel()
-        # Catch the case where y is None because we're doing inference.
-        except AttributeError:
-            pass
 
     X = np.concatenate([X_continuous, X_categorical], axis=1)
     return X, y, encoder, lb

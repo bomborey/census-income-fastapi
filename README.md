@@ -1,7 +1,7 @@
 # Census Income Prediction API
 
 Repository platform: GitHub
-Repository URL: https://github.com/<your-github-username>/<your-repo-name>
+Repository URL: https://github.com/bomborey/census-income-fastapi
 
 A Random Forest model trained on the UCI Census Income data predicts whether income is `>50K` or `<=50K`. The model is served with FastAPI, tested with pytest, linted with flake8 through GitHub Actions, and deployed to Render only after CI passes.
 
@@ -41,10 +41,10 @@ uvicorn main:app --reload            # docs at http://127.0.0.1:8000/docs
 
 ## Live API
 
-Live URL: https://<your-service>.onrender.com
+Live URL: https://census-income-api-c6bi.onrender.com
 
 ```bash
-python live_post.py https://<your-service>.onrender.com
+python live_post.py https://census-income-api-c6bi.onrender.com
 ```
 
 ## Model performance
